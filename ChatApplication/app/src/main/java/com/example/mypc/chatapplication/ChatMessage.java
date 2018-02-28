@@ -1,0 +1,16 @@
+package com.example.mypc.chatapplication;
+
+/**
+ * Created by mypc on 2/27/2018.
+ */
+
+public class ChatMessage {
+    public boolean left;
+    public String message;
+
+    public ChatMessage(boolean left, String message) {
+        super();
+        this.left = left;
+        this.message = message;
+    }
+}
